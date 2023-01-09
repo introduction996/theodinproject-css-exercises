@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .profile-image {
@@ -27,6 +30,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  padding-left: 8px;;
 }
 
 button {
@@ -44,5 +48,27 @@ a {
 }
 
 ul {
+  /* this removes the list dots */
   list-style-type: none;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  padding: 10px;
+}
+
+#header-right, #header-left {
+  box-shadow: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+#header-right {
+  padding-right: 8px;
 }
