@@ -1,5 +1,11 @@
-body {
+
+html, body {
+  width: 100vw;
+  height: 100vh;
   font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
@@ -23,4 +29,30 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.title {
+  text-align: center;
+  margin: 32px;
+}
+
+#flex-item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.flex-item {
+  width: 200px;
 }
